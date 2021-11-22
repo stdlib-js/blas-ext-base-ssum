@@ -20,7 +20,7 @@ limitations under the License.
 
 # ssum
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Calculate the sum of single-precision floating-point strided array elements.
 
@@ -186,10 +186,10 @@ console.log( v );
 
 ## See Also
 
--   [`@stdlib/blas/ext/base/dsum`][@stdlib/blas/ext/base/dsum]: calculate the sum of double-precision floating-point strided array elements.
--   [`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]: calculate the arithmetic mean of a single-precision floating-point strided array.
--   [`@stdlib/blas/ext/base/snansum`][@stdlib/blas/ext/base/snansum]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values.
--   [`@stdlib/blas/ext/base/gsum`][@stdlib/blas/ext/base/gsum]: calculate the sum of strided array elements.
+-   <span class="package-name">[`@stdlib/blas/ext/base/dsum`][@stdlib/blas/ext/base/dsum]</span><span class="delimiter">: </span><span class="description">calculate the sum of double-precision floating-point strided array elements.</span>
+-   <span class="package-name">[`@stdlib/stats/base/smean`][@stdlib/stats/base/smean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/snansum`][@stdlib/blas/ext/base/snansum]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements, ignoring NaN values.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/gsum`][@stdlib/blas/ext/base/gsum]</span><span class="delimiter">: </span><span class="description">calculate the sum of strided array elements.</span>
 
 </section>
 
@@ -240,8 +240,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-ssum/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-ssum?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-ssum.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-ssum/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
