@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ssum@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-ssum/tags). For example,
+
+```javascript
 import ssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ssum@v0.2.2-esm/index.mjs';
 ```
 
@@ -153,7 +158,7 @@ var v = ssum.ndarray( 4, x, 2, 1 );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import ssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ssum@v0.2.2-esm/index.mjs';
+import ssum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ssum@esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( 0, 100 ) );
 console.log( x );
